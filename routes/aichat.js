@@ -1,7 +1,8 @@
 import express from 'express';
 import { GoogleGenAI } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyChqr1zjIGW0bimvlxtvLFKgZvkSE_dLX8' });
+const { GOOGLE_API_KEY } = process.env;
+const ai = new GoogleGenAI({ apiKey: GOOGLE_API_KEY });
 const router = express.Router();
 
 // Endpoint to generate quiz questions from submitted text
