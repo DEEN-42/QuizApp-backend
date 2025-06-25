@@ -36,7 +36,7 @@ This is the **backend** repository for the [Document-Based Quiz Generator](https
 ## 📦 Installation & Setup
 
 1. **Clone the repository**:
-   ```bash
+```bash
    git clone https://github.com/DEEN-42/QuizApp-backend.git
    cd QuizApp-backend
 ````
@@ -90,8 +90,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🤝 Contributing
 
 Feel free to fork and contribute to improve the project. Open issues or submit PRs!
-
-```
-
-Let me know if you want a `.env.example` file or Postman collection to go with this.
-```
